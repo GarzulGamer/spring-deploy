@@ -14,10 +14,10 @@ public class HelloController {
     @GetMapping("/hola")
     public String holaMundo() {
         System.out.println(message);
-        return "Hola Mundo que tal estas, probemos?!";
+        return "Hola mi amor espero que tengas buena tarde y que vayas abrigada por si llueve!";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                                 
